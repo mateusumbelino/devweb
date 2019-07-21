@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Introdução HTML 5</title>
+	<meta charset="utf-8">
+
+	<!--[if lt IE 9]>
+		<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<form>
+		<!-- Associar Label com os elementos - Boa Prática -->
+		<label for="nome">Nome</label>
+		<input type="text" id="nome" autofocus>
+		<br><br>
+
+		<!-- Novos Inputs e Atributos HTML5 -->
+		<!-- Email -->
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="eu@teste.com" required>
+		<br><br>
+
+		<!-- Número -->
+		<label for="numero">Número</label>
+		<input type="number" id="numero" min="5" max="10" step="2">
+		<br><br>
+
+		<!-- URL -->
+		<label for="url">URL</label>
+		<input type="url" id="url" placeholder="ex: http://www.oi.com.br">
+		<br><br>
+
+		<!-- Pesquisar -->
+		<label for="pesquisa">Pesquisa</label>
+		<input type="search" id="pesquisa" placeholder="Digite algo">
+		<br><br>
+
+		<!-- Range -->
+		<label for="range">Range</label>
+		<input type="range" id="range" min="1" max="10" value="3">
+		<br><br>
+
+		<!-- Data -->
+		<label for="data">Data</label>
+		<input type="date" id="data">
+		<br><br>
+
+		<!-- Cor -->
+		<label for="cor">Cor</label>
+		<input type="color" id="cor">
+		<br><br>
+
+		<input type="submit" value="enviar">
+	</form>
+</body>
+</html>
